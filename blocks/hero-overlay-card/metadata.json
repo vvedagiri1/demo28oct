@@ -1,0 +1,22 @@
+{
+  "variantName": "hero-overlay-card",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Rounded banner with photo background, dark overlay, heading, text and CTA",
+    "section": "Closing CTA banner",
+    "sectionBackground": "#000000",
+    "sectionMetadata": {}
+  },
+  "contentPattern": {
+    "structure": "row 1: background image; row 2: H2 heading, paragraph, CTA link",
+    "description": "Photo-background banner with heading, paragraph and CTA — Photo background with overlaid heading, text and CTA; the photo belongs to the hero block"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-overlay-card"
+  ],
+  "usage": "Closing CTA banners over a photo.",
+  "reuseGuidance": "Use for photo-background CTAs. Without an image the content renders as plain text.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

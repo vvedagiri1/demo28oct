@@ -1,0 +1,23 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Testimonial tabs: avatar/name/role tab buttons switching quotation panels",
+    "section": "Testimonials tabs",
+    "sectionBackground": "#ffffff",
+    "sectionMetadata": {}
+  },
+  "contentPattern": {
+    "structure": "one row per tab: (1) tab label - avatar image, name, role; (2) panel - image, name (bold), role, quotation paragraph",
+    "description": "Tabs: 4 tabs with avatar+name+role labels, each panel image + name + role + quotation — Interactive tabbed component; quotations stay inside their tab panels with all labels and images",
+    "notes": "4 rows: Alex Rivera, Taylor Kim, Jordan Ellis, Morgan Blake"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "tabs-testimonial"
+  ],
+  "usage": "Customer or community testimonials switched by person.",
+  "reuseGuidance": "Use for person-based tabbed quotes. The last paragraph of the panel is treated as the quote.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

@@ -1,0 +1,61 @@
+.hero-overlay-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 400px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-overlay-card .hero-overlay-card-media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  line-height: 0;
+}
+
+.hero-overlay-card .hero-overlay-card-media picture,
+.hero-overlay-card .hero-overlay-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay-card .hero-overlay-card-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgb(0 0 0 / 50%);
+}
+
+.hero-overlay-card .hero-overlay-card-content {
+  position: relative;
+  max-width: 768px;
+  padding: 32px 24px;
+  color: #fff;
+}
+
+.hero-overlay-card.hero-overlay-card-no-image .hero-overlay-card-content {
+  color: inherit;
+}
+
+.hero-overlay-card .hero-overlay-card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-overlay-card .hero-overlay-card-buttons p {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .hero-overlay-card {
+    min-height: 560px;
+  }
+
+  .hero-overlay-card .hero-overlay-card-content {
+    padding: 64px;
+  }
+}

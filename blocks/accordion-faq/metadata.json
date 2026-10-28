@@ -1,0 +1,25 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Expandable FAQ question/answer items",
+    "section": "FAQ",
+    "sectionBackground": "#ffffff",
+    "sectionMetadata": {
+      "style": "split"
+    }
+  },
+  "contentPattern": {
+    "structure": "one row per item: (1) question; (2) answer",
+    "description": "4 expandable FAQ question/answer items — Interactive expand/collapse FAQ items",
+    "notes": "4 rows"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "accordion-faq"
+  ],
+  "usage": "FAQ lists; pairs with a heading as default content in a split section.",
+  "reuseGuidance": "Use for any question/answer disclosure list. Built on native details/summary.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

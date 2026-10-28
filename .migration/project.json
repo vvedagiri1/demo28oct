@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "demo28oct": {
+      "previewOrg": "vvedagiri1",
+      "previewSite": "demo28oct",
+      "contentHostUrl": "https://content.da.live/vvedagiri1/demo28oct/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}
