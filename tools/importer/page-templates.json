@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/",
+      "description": "Homepage: hero collage, featured case study, image gallery, testimonial tabs, latest articles, FAQ and closing banner",
+      "urlPattern": "/",
+      "blocks": [
+        {
+          "name": "columns-hero-collage",
+          "instances": [
+            "header.section.secondary-section .grid-layout.grid-gap-xxl"
+          ]
+        },
+        {
+          "name": "columns-article-intro",
+          "instances": [
+            ".grid-layout.grid-gap-lg:has(.breadcrumbs)",
+            ".grid-layout.tablet-1-column.grid-gap-lg"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            ".grid-layout.desktop-4-column.grid-gap-sm"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            ".tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            ".grid-layout.desktop-4-column.grid-gap-md"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "hero-overlay-card",
+          "instances": [
+            "section.inverse-section .utility-position-relative.utility-radius-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc1",
+          "name": "Hero intro",
+          "selector": [
+            "header.section.secondary-section"
+          ],
+          "style": "light-grey",
+          "blocks": [
+            "columns-hero-collage"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc2",
+          "name": "Featured case study",
+          "selector": [
+            "section.section:has(.breadcrumbs)",
+            "#main-content > section.section:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-article-intro"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "Style in every snapshot",
+          "selector": [
+            "section.secondary-section:has(.grid-gap-sm)",
+            "#main-content > section.section.secondary-section:nth-of-type(2)"
+          ],
+          "style": "light-grey, centered",
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            ".utility-text-align-center.utility-margin-bottom-8rem > h2",
+            ".utility-text-align-center.utility-margin-bottom-8rem > p"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "Testimonials",
+          "selector": [
+            "section.section:has(.tabs-wrapper)",
+            "#main-content > section.section:nth-of-type(3)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "Latest articles",
+          "selector": [
+            "section.secondary-section:has(.article-card)",
+            "#main-content > section.section.secondary-section:nth-of-type(4)"
+          ],
+          "style": "light-grey, centered",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "section.secondary-section:has(.article-card) .utility-text-align-center > h2",
+            "section.secondary-section:has(.article-card) .utility-text-align-center > p"
+          ]
+        },
+        {
+          "id": "rc6",
+          "name": "FAQ",
+          "selector": [
+            "section.section:has(.faq-list)",
+            "#main-content > section.section:nth-of-type(5)"
+          ],
+          "style": "split",
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".grid-layout.grid-gap-xxl:has(.faq-list) > div:first-child > h2",
+            ".grid-layout.grid-gap-xxl:has(.faq-list) > div:first-child > p"
+          ]
+        },
+        {
+          "id": "rc7",
+          "name": "Closing banner",
+          "selector": [
+            "section.inverse-section"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-overlay-card"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

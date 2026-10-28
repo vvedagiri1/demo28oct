@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-hero-collage",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Page-opening hero: H1, subheading and CTA buttons beside a collage of images",
+    "section": "Hero intro",
+    "sectionBackground": "#f5f5f5",
+    "sectionMetadata": {
+      "style": "light-grey"
+    }
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: (1) H1, subheading paragraph, CTA links each in its own paragraph; (2) two to four images (collage)",
+    "description": "H1 + subheading + 'See case'/'All stories' buttons beside a 3-image collage grid — Fixed side-by-side layout: text/CTA column next to an image collage column; does not wrap as a list",
+    "notes": "rc1: col1 H1+subheading+2 links, col2 3 images; rc2: col1 image, col2 breadcrumb links, H2, byline paragraphs"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-hero-collage"
+  ],
+  "usage": "Top-of-page intro where a headline and CTAs sit beside multiple photos.",
+  "reuseGuidance": "Use for text + multi-image collage layouts. For a single image beside text use columns-article-intro or columns.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

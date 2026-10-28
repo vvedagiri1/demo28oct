@@ -1,0 +1,47 @@
+.columns-hero-collage .columns-hero-collage-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.columns-hero-collage .columns-hero-collage-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.columns-hero-collage .columns-hero-collage-buttons p {
+  margin: 0;
+}
+
+.columns-hero-collage .columns-hero-collage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.columns-hero-collage .columns-hero-collage-grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.columns-hero-collage .columns-hero-collage-image {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.columns-hero-collage .columns-hero-collage-image picture,
+.columns-hero-collage .columns-hero-collage-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .columns-hero-collage .columns-hero-collage-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+  }
+}

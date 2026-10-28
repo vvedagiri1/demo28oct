@@ -1,0 +1,23 @@
+{
+  "variantName": "columns-article-intro",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Featured article intro: image beside breadcrumbs, heading and byline",
+    "section": "Featured case study",
+    "sectionBackground": "#ffffff",
+    "sectionMetadata": {}
+  },
+  "contentPattern": {
+    "structure": "one row, two cells: (1) image; (2) breadcrumb links in one paragraph, H2 title, byline paragraphs (author, date / read time)",
+    "description": "Image beside breadcrumbs, heading and byline meta — Fixed two-column layout of an image beside different content (breadcrumbs, heading, byline)",
+    "notes": "rc1: col1 H1+subheading+2 links, col2 3 images; rc2: col1 image, col2 breadcrumb links, H2, byline paragraphs"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-article-intro"
+  ],
+  "usage": "Featured case study / article lead with breadcrumb trail and author meta.",
+  "reuseGuidance": "Use when an image sits beside article meta. Link-only paragraphs before the heading become breadcrumbs; paragraphs after it become the byline.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

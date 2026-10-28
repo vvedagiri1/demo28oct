@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-gallery",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Square image tiles in a wrapping 4-column grid",
+    "section": "Style in every snapshot",
+    "sectionBackground": "#f5f5f5",
+    "sectionMetadata": {
+      "style": "light-grey, centered"
+    }
+  },
+  "contentPattern": {
+    "structure": "one row per tile: (1) image; (2) optional caption",
+    "description": "8 square images in a wrapping 4-column grid — Repeating look-alike image tiles that flow and wrap in a grid",
+    "notes": "One row per card. rc3: image-only cards (text cell empty/omitted); rc5: image + tag + date + H3 title linked to article"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-gallery"
+  ],
+  "usage": "Photo galleries / snapshot grids.",
+  "reuseGuidance": "Use for image-only tiles. For tiles with tag/date/title linking to articles use cards-article.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

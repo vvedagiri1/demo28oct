@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Linked article cards with image, tag, date and title",
+    "section": "Latest articles",
+    "sectionBackground": "#f5f5f5",
+    "sectionMetadata": {
+      "style": "light-grey, centered"
+    }
+  },
+  "contentPattern": {
+    "structure": "one row per article: (1) image; (2) tag paragraph, date paragraph, H3 title linked to the article",
+    "description": "4 linked article cards with image, tag, date, H3 title — Dynamic list of look-alike items each linking to a detail page with date and tag",
+    "notes": "One row per card. rc3: image-only cards (text cell empty/omitted); rc5: image + tag + date + H3 title linked to article"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-article"
+  ],
+  "usage": "Latest articles / blog listings.",
+  "reuseGuidance": "Use for article teasers. The first link in the card (preferably in the title) makes the whole card clickable.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}
